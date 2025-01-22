@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Discord</title>
 </head>
 <body>
-    <h1>Welcome to the website!</h1>
+    <main>
+        <h1 class="header">
+            Discord
+            <button id="logout">log out</button>
+        </h1>
+        <ul class="messages"></ul>
+        <form id="formMsg">
+            <input type="text" id="inputMsg" placeholder="Enter message...">
+            <button type="submit" class="submit">Send</button>
+        </form>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.js"></script>
 </body>
 </html>

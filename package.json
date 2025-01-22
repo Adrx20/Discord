@@ -8,7 +8,6 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "ajax": "^0.0.4",
     "body-parser": "^1.20.3",
@@ -21,5 +20,14 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adrx20/Discord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Adrx20/Discord/issues"
+  },
+  "homepage": "https://github.com/Adrx20/Discord#readme",
+  "description": ""
 }
