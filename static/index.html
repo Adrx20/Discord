@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="start.css">
+    <link rel="stylesheet" href="/asdasd/static/style.css">
     <title>Document</title>
 </head>
 <body>
     <form action="reg" class="form" id="regForm">
         <div class="title">Welcome to my Web Site, <br/> here u can chat with ur friends</div>
-        
         
         <label class="email-label styleLabel" for="email">Email:</label>
         <input class="email styleInput" type="email" name="email" id="email" placeholder="Email">
@@ -24,25 +23,30 @@
         <input class="password styleInput" type="password" name="password" id="password" placeholder="Password">
         
         <input class="btn" type="submit" value="Send">
-
-        <div><button class="another-acc">Already registered?</button></div>
     
+        <div class="registered">Already registered?</div>
     </form>
+    
 
-    <!-- <form action="log" class="form">
+
+    <form action="log" class="form" id="logForm">
         <div class="title">Welcome back</div>
         
-        <label class="email-label styleLabel" for="email">Email:</label>
-        <input class="email styleInput" type="email" name="email" id="email" placeholder="Email">
+        <label class="email-label styleLabel" for="email-log">Email:</label>
+        <input class="email styleInput" type="email" name="email-log" id="email-log" placeholder="Email">
         
-        <label class="password-label styleLabel" for="password">Password:</label>
-        <input class="password styleInput" type="password" name="password" id="password" placeholder="Password">
+        <label class="password-label styleLabel" for="password-log">Password:</label>
+        <input class="password styleInput" type="password" name="password-log" id="password-log" placeholder="Password">
         
         <input class="btn" type="submit" value="Send">
 
-        <div><button class="another-acc">Account required?</button></div>
+        <div button class="required">Account required?</div>
+    </form>
     
-    </form> -->
-    <script src="start.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/asdasd/static/script.js"></script>
 </body>
 </html>
